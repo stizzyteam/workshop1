@@ -1,0 +1,46 @@
+# write a program that calculates the product of three nubers
+calculate_product(num1,num2,num3)
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the first number: "))
+num3 = float(input("Enter the first number: "))
+
+num1 * num2 * num3
+
+product = calculate_product(num1, num2, num3)
+print(f"The product of {num1}, {num2}, and {num3} is: {product}")
+
+
+# question 2
+# Given dimensions
+length = 8  # in centimeters
+width = 3   # in centimeters
+
+# Calculate the area of the rectangle
+area = length * width
+
+# Output the result
+print(f"The area of the rectangle is {area} square centimeters.")
+
+
+#question 3
+# Store your name in a string
+name = "Your Name"  # Replace "Your Name" with your actual name
+
+# Print the greeting
+print(f"Greetings, {name}!")
+
+
+
+#question 4
+
+# Input two numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Calculate the average
+average = (num1 + num2) / 2
+
+# Output the result
+print(f"The average of {num1} and {num2} is: {average}")
+
